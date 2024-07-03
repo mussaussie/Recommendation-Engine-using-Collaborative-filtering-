@@ -1,4 +1,4 @@
-Collaborative Filtering Recommendation Engine
+**Collaborative Filtering Recommendation Engine**
 
 Overview
 This project implements a collaborative filtering recommendation engine using Python, leveraging the MovieLens dataset (u.data). Collaborative filtering is a technique that predicts user preferences by finding similarities between users based on their item ratings.
@@ -19,7 +19,7 @@ Predict ratings for all users and items using the predict_ratings function.
 Generate recommendations for a specific user using recommend_items.
 Usage
 
-# Example usage to get recommendations for user_id 1
+Example usage to get recommendations for user_id 1
 user_id = 1
 num_recommendations = 5
 recommendations = recommend_items(predicted_ratings_df, user_id, num_recommendations)
